@@ -1,0 +1,448 @@
+.transition(@val){
+	transition: @val;
+	-webkit-transition:@val;
+
+}
+a{
+	color: #999;
+	&:hover {
+		color: red;
+	}
+}
+/*ad部分*/
+.ad{
+	/*.transition(.5s);*/
+	width:100%;
+	height:50px;
+	background-color:#ff3356;
+	cursor:pointer;
+	a{
+		width:1000px;
+		height:50px;
+		margin:0 auto;
+		display:block;
+		img{
+			position:relative;
+		}
+
+	}
+	span{
+		position:absolute;
+		right:32px;
+		top:5px;
+		color:#fff;
+	}
+}
+/*header部分*/
+.g-header{
+	position:relative;
+	width:100%;
+	height:35px;
+	line-height:35px;
+	background-color:#f5f5f5;
+	border-bottom:1px solid #eee;
+	.article {
+		overflow:visible;
+		width:1190px;
+		margin:0 auto;
+		span {
+			margin-right: 5px;
+			color: #999;
+			.homeicon {
+				display: block;
+				float: left;
+				width: 15px;
+				height: 36px;
+				margin-right: 3px;
+				background: url(../images/icon_index.png) no-repeat scroll 0 11px;
+			}
+		}
+		.other {
+			padding-left: 10px;
+			a {
+				display: block;
+				float: left;
+				width: 20px;
+				height: 35px;
+				margin-right: 3px;
+				background: url(../images/icon_index.png) no-repeat -378px 10px;
+				&.qq {
+					background-position: -378px 10px;
+				}
+				&.ali {
+					background-position: -414px 10px;
+				}
+				&.qq360 {
+					background-position: -449px 10px;
+				}
+				&.sina {
+					background-position: -485px 10px;
+				}
+			}
+		}
+		.forser {
+			padding-left: 10px;
+			overflow: hidden;
+			span {
+				color: #888;
+				float: left;
+				.number {
+					font-size: 14px;
+					font-family: "microsoft yahei";
+				}
+			}
+		}
+	
+	.header-right {
+		height: 35px;
+		line-height: 35px;
+		width:350px;
+		.rg {
+			line-height:35px;
+			.menu{
+				width:350px;
+				float:right;
+				li{
+					display:inline-block;
+					position:relative;
+					margin-right:-2px;
+					&:nth-of-type(2n+1){
+						width:83px;
+					}
+					&:nth-of-type(1) i{
+						background:url(../images/icon_index.png) no-repeat -89px 0;
+						display:inline-block;
+						width:9px;
+						height:14px;
+						&:hover{
+							background-position:-69px 0;
+						}
+					}
+					&:nth-of-type(3) i{
+						background:url(../images/icon_index.png) no-repeat -66px -21px;
+						display:inline-block;
+						width:12px;
+						height:14px;
+						&:hover{
+							background-position:-42px -21px;
+						}
+					}
+					&:last-child i{
+						background:url(../images/icon_index.png) no-repeat -24px 0;
+						display:inline-block;
+						width:12px;
+						height:16px;
+						vertical-align:middle;
+						&:hover{
+							background-position:-44px 0;
+						}
+					}
+
+}
+			.mygou{
+				&:hover{
+				background-color:#fff;
+				border:1px solid #ccc;
+				border-bottom:none;
+			}
+		}
+			.nonconli{
+				width:82px;
+				/*background:red;*/
+				&:hover{
+					border:1px solid #ccc;
+					border-bottom:none;
+					background-color:#fff;
+				}
+				.noncon{
+					/*background:blue;*/
+					position:absolute;
+					left:-1px;
+					top:34px;
+					width:83px;
+					&:hover{
+						background-color:#fff;
+					}
+				}
+			}
+			#weixin{
+				position:absolute;
+				left:-158px;
+				top:34px;
+				&:hover{
+					background-color:#fff;
+				}
+			}
+
+}
+}
+}
+}
+}				
+		
+			    
+/*logo*/		
+.logo{
+	width:1190px;
+	margin:0 auto;
+	height:123px;
+	.logo-center{
+		/*overflow:hidden;*/
+		margin-top:25px;
+		form{
+			height:35px;
+		.text{
+			clear:both;
+			float: left;
+		    width: 400px;
+		    line-height: 35px !important;
+		    height: 35px;
+		    border: 2px solid #cb1e00;
+		    font-size: 14px;
+		    color: #b8b8b8;
+		    text-indent: 11px;
+		    outline:none;
+		    &:hover{
+		    	border-color:#666;
+		    }
+
+		}
+		.btn{
+			float: left;
+		    width: 90px;
+		    height: 39px;
+		    background: #cc1d00;
+		    font-size: 16px;
+		    color: #fff;
+		    cursor: pointer;
+		    font-family: Microsoft Yahei,"microsoft yahei";
+		    border: 0px;
+		    outline:none;
+		}
+		}
+		
+		.hot{
+			margin-top:10px;
+			width: 423px;
+		    height: 26px;
+		    line-height:26px;
+		    font-size: 12px;
+		    color: #9a9a9a;
+		    overflow: hidden;
+		    text-align: left;
+		    float: left;
+			a{
+				padding:0 5px;
+			}
+		}
+		
+	}
+	.logo-right{
+		margin-top:5px;
+	}
+}
+/*nav部分*/
+.nav{
+	width: 1190px;
+    margin: 0 auto;
+    line-height: 36px;
+    height: 36px;
+    background:#fff;
+    border: none;
+   	position:relative;	
+    .navmain{
+    	.goodslist{
+		   	width: 180px;
+		    text-align: center;
+		    background: #CB351A;
+		    font-size: 15px;
+		    line-height: 36px;
+		    height: 36px;
+		    float: left;
+		    color: #fff;
+    }
+    	ul{
+    		float:left;
+    		li{
+    			float:left;
+    			a{
+    				padding:0 12px;
+    				font-size:16px;
+    			}
+    		}
+    	}
+    }
+    .menu-box{
+    	width:180px;
+    	.menu-list{
+		    width: 180px;
+		    height: 480px;
+		    overflow: hidden;
+		    background: #cb3e25;
+		    li{
+		    	border-bottom: 1px solid #b82f17;
+			    border-top: 1px solid #da5a44;
+			    height: 49px;
+			    line-height: 20px;
+			    font-size: 14px;
+			    padding:1.2px 0;
+			    opacity:0.8;
+			    &:hover{
+			    	background:#a90000;
+			    	-webkit-transition:background-color .5s;
+			    	color:#fff;
+			    }
+			    h3{
+			    	margin-top: 5px;
+			    	margin-left:46px;
+			    	a{
+			    		color:#fff;
+			    	}
+			    }
+			    p{
+			    	margin-left:39px;
+			    	a{
+			    		margin-right:5px;
+			    		color:#eca598;
+			    		font-size:12px;
+
+			    	}
+			    }
+			    i{
+			    	display:inline-block;
+			    	width:39px;
+			    	height:49px;
+			    	margin-right:10px;
+			    	float:left;
+			    	font-size:16px;
+			    	text-decoration:none;
+			    	text-align:right;
+			    	background:url(../images/icon_index.png) no-repeat;
+
+			    }
+			    .i1{
+			    		background-position:right -50px;
+			    	}
+			    	.i2{
+			    		background-position:right -92px;
+			    	}
+			    	.i3{
+			    		background-position:right -266px;
+			    	}
+			    	.i4{
+			    		background-position:right -134px;
+			    	}
+			    	.i5{
+			    		background-position:right -179px;
+			    	}
+			    	.i6{
+			    		background-position:right -223px;
+			    	}
+			    	.i7{
+			    		background-position:right -310px;
+			    	}
+			    	.i8{
+			    		background-position:right -394px;
+			    	}
+			    	.i9{
+			    		background-position:right -350px;
+			    	}
+		    }
+    	}
+    }
+    .submenu-box{
+    	width:400px;
+    	height:480px;
+    	position:absolute;
+    	top:37px;
+    	/*left:180px;*/
+    	background:#f5fafe;
+    	box-shadow: 1px 0 2px #978d8d inset;
+    	display:none;
+    	.submenu{
+    		    padding: 12px 10px 12px 15px;
+   	 			line-height: 20px;
+    		p{
+    		border-bottom: 1px dashed #ccc;
+		    padding-bottom: 4px;
+		   margin-bottom: 15px;
+		    strong{
+		    	    display: block;
+				    font-weight: bold;
+				    height:20px;
+				   
+		    }
+		    a{
+		    	margin-right: 17px;
+			    line-height: 20px;
+			    display: inline-block;
+		    }
+    	}
+    	 p:nth-of-type(1) strong{
+    	 	margin-top:-2px;
+    	 	margin-bottom:-15px;
+    	 }
+    	 p:nth-of-type(2) strong, p:nth-of-type(3) strong, p:nth-of-type(4) strong{
+				    	margin-top:7px;
+				    	margin-bottom:-11px;
+				    }
+    	}
+    	
+    }
+    /*.cur{
+    	display:block;
+    }*/
+    .submenu-box1{
+    	margin-top:-36px;
+    }
+    .submenu-box2{
+    	margin-top:-36px;
+    	strong{
+    		margin-top:-8px;
+    		margin-bottom:-10px;
+    	}
+    }
+    .submenu-box3{
+    	margin-top:-36px;
+    	strong{
+    		margin-top:-8px;
+    		margin-bottom:-10px;
+    	}
+    }
+    .submenu-box4{
+    	margin-top:-36px;
+    	strong{
+    		margin-top:-10px;
+    		margin-bottom:-16px;
+    	}
+    }
+    .submenu-box5{
+    	margin-top:-36px;
+    	strong{
+    		margin-top:-10px;
+    		margin-bottom:-16px;
+    	}
+    }
+    .submenu-box6{
+    	margin-top:-36px;
+    	strong{
+    		margin-top:-10px;
+    		margin-bottom:-16px;
+    	}
+    }
+    .submenu-box7{
+    	margin-top:-36px;
+    	strong{
+    		margin-top:-10px;
+    		margin-bottom:-16px;
+    	}
+    }
+    .submenu-box8{
+    	margin-top:-36px;
+    	strong{
+    		margin-top:-10px;
+    		margin-bottom:-16px;
+    	}
+    }
+}
+	
